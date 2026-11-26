@@ -101,6 +101,7 @@ def main():
         res = evaluate_investment(inv["name"], inv["c0"], inv["cf"], d, phi, n, epsilon, cf_is_before_tax=True)
         results.append(res)
 
+
     if not results:
         print("No investments evaluated.")
         return
